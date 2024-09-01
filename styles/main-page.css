@@ -1,0 +1,31 @@
+.bg-container {
+    background-image: linear-gradient(to right, #0099ff,  #99cc00);
+    height: 100vh;
+    color: white;
+    font-family: "Roboto"
+}
+
+.todo-app-heading {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.create-task-heading-part2 {
+    font-weight: 100;
+}
+
+.create-task-heading-part1 {
+    font-weight: bold;
+}
+
+
+.input-box {
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.custom-button {
+    background-color: #FF7F50;
+    width:75px;
+}
