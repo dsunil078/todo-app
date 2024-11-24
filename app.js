@@ -1,4 +1,3 @@
-
 let todoItemsContainer = document.getElementById("todoItemsContainer");
 let todoItemsObject=JSON.parse(getTodoItemsObjectFromCache())
 //console.log(todoItemsObject)
@@ -15,7 +14,7 @@ document.addEventListener('keydown', function(event) {
 
 function getTodoItemsObjectFromCache() {
     if (localStorage.getItem("todoItemsObject") == null)
-        return {};
+        return "{}";
     else {
         return localStorage.getItem("todoItemsObject");
     }
