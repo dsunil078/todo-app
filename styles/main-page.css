@@ -1,8 +1,9 @@
 .bg-container {
     background-image: linear-gradient(to right, #0099ff,  #99cc00);
-    height: 100vh;
+    min-height: 100vh;
     color: white;
     font-family: "Roboto"
+
 }
 
 .todo-app-heading {
@@ -28,4 +29,34 @@
 .custom-button {
     background-color: #FF7F50;
     width:75px;
+}
+
+.todo-item-checkbox {
+    height: 20px;
+    width: 20px;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+
+.todo-item-label {
+    color: #000000;
+    padding: 10px;
+    background-color: #33ccff;
+    width: 100%;
+    border-style: solid;
+    border-color: #c2ff66;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 5px;
+    border-width: 5px;
+    font-size: 20px;
+}
+
+.todo-item-label-text {
+    text-decoration: line-through;
+}
+.todo-item-label-delete {
+    margin-left: auto;
+
 }
